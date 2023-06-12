@@ -21,7 +21,7 @@ public class App {
     private final String recipientEmail;
     private final JavaMailSender mailSender;
 
-    public App(JavaMailSender mailSender, @Value("${recipient@example.com}") String recipientEmail) {
+    public App(JavaMailSender mailSender, @Value("${gandhirahul190@gmail.com}") String recipientEmail) {
         this.mailSender = mailSender;
         this.recipientEmail = recipientEmail;
     }

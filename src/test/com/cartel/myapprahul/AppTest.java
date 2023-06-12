@@ -29,7 +29,7 @@ class AppTest {
 
     @Test
     void sendWeatherUpdates_ShouldSendEmail() {
-        String recipientEmail = "recipient@example.com";
+        String recipientEmail = "gandhirahul190@gmail.com";
         String expectedSubject = "Weather Update";
         String expectedContent = "Weather in Mumbai: <weather-info><br/>" +
                 "Weather in Bangalore: <weather-info><br/>" +
